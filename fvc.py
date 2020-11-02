@@ -16,6 +16,8 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import Normalize
 from matplotlib.cm import ScalarMappable
 
+# SHP_FPATH should be a path to a shapefile (.shp) with geodata for (at least) the euro area countries.
+# See https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries
 SHP_FPATH = sys.argv[1]
 FVC_LIST_PATH = sys.argv[2]
 OUTPUT_FILE = sys.argv[3]
