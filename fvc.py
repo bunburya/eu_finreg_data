@@ -22,7 +22,7 @@ SHP_FPATH = sys.argv[1]
 FVC_LIST_PATH = sys.argv[2]
 OUTPUT_FILE = sys.argv[3]
 
-TITLE = 'Number of financial vehicle corporations'
+TITLE = 'Number of financial vehicle corporations in the euro area'
 
 # Let's restrict our analysis to the eurozone countries
 
